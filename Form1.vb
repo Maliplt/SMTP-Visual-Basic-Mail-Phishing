@@ -4,9 +4,9 @@ Public Class Form1
     'just enjoy!'
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text = "" Then
-            MsgBox("Riot Adı Yanlış")
+            MsgBox("If username texbox empty then this message will be showing")
             If TextBox2.Text = "" Then
-                MsgBox("Şifre Yanlış")
+                MsgBox("If password texbox is empty then tihs message will be showing")
             Else
             End If
         End If
